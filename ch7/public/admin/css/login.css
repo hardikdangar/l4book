@@ -1,0 +1,165 @@
+/* Override some defaults */
+html, body {
+    background-color: whitesmoke;
+}
+.login-form {
+    margin-left: 65px;
+}
+
+legend {
+    margin-right: -50px;
+    font-weight: bold;
+    color: #404040;
+}
+#login_title
+{
+    color: #006699;
+    font-size: 22px;
+    font-weight: normal;
+    text-shadow: 0 0 1px grey;
+    text-transform: capitalize;
+}
+#login_error_message
+{
+    text-align: center;
+    color: #990000;
+    font-weight: normal;
+    text-shadow: 0 0 1px white;
+    /*text-transform: capitalize;*/
+
+    background-color: #F6EAEA;
+
+    margin-bottom: 18px;
+    /*                padding: 8px 20px;*/
+
+}
+#login_error_message p
+{
+    font-size:13px;
+    color:#BC5F5F;
+    font-family: arial;
+}
+.close
+{
+    color: #000000;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 18px;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #FFFFFF;
+    /*                display: none;*/
+}
+.alert .close {
+    line-height: 18px;
+    position: relative;
+    right: -21px;
+    top: -2px;
+}           
+a {
+    color: #0088CC;
+    text-decoration: none;
+}
+
+.box .footer {
+    background: none repeat scroll 0 0 #EFF4F6;
+    border-top: 1px solid #FFFFFF;
+    overflow: hidden;
+    padding:10px;
+    text-align: right;
+}
+.box {
+    -webkit-border-bottom-colors: none;
+    -webkit-border-image: none;
+    -webkit-border-left-colors: none;
+    -webkit-border-right-colors: none;
+    -webkit-border-top-colors: none;
+    background: none repeat scroll 0 0 #FEFEFE;
+    border-color: -moz-use-text-color #C3D4DB #C3D4DB;
+    border-radius: 10px 10px 10px 10px;
+    border-right: 1px solid #C3D4DB;
+    border-left: 1px solid #C3D4DB;
+    border-bottom: 1px solid #C3D4DB;
+    border-style: none solid solid;
+    border-width: 1px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    color: #444444;
+    font: 12px/14px Arial,Helvetica,Sans-serif;
+    width:350px;
+    overflow: hidden;
+}
+.boxBody {
+    -webkit-border-bottom-colors: none;
+    -webkit-border-image: none;
+    -webkit-border-left-colors: none;
+    -webkit-border-right-colors: none;
+    -webkit-border-top-colors: none;
+    background: none repeat scroll 0 0 #FEFEFE;
+    border-color: #DDE0E8 -moz-use-text-color;
+    padding: 10px 20px;
+    margin-left:0px; 
+
+}
+.box .boxBody label {
+    padding-left: 10px;
+}
+.box label {
+    display: block;
+    font: 14px/22px Arial,Helvetica,Sans-serif;
+    margin: 10px 0 0 6px;
+}
+.btnLogin {
+    background:#828C95;	
+    background:-webkit-gradient(center top , #B5BDC8 0%, #828C95 36%, #28343B 100%) repeat scroll 0 0 transparent;
+    background:-webkit-linear-gradient(center top , #B5BDC8 0%, #828C95 36%, #28343B 100%) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(center top , #B5BDC8 0%, #828C95 36%, #28343B 100%) repeat scroll 0 0 transparent;
+    border: 1px none #B5BDC8 !important;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.6) inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    margin-left: 12px;
+    padding: 7px 21px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btnLogin:hover,
+.btnLogin:focus,
+.btnLogin:active{
+    background: rgb(206,220,231); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(206,220,231,1)), color-stop(100%,rgba(89,106,114,1)));    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#7acbed', EndColorStr='#badff3')";
+}
+.btnLogin:active
+{
+    text-shadow:rgba(0,0,0,0.3) 0 -1px 0px; 
+}
+
+.box input[type="text"], .box input[type="password"] {
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 15px;
+}
+.box input[type="text"], .box input[type="password"], .txtField, .cjComboBox {
+    border: 6px solid #F7F9FA;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.06) inset, 0 0 1px #95A2A7 inset;
+    display: block;
+    margin: 3px 0 4px;
+    padding: 8px 6px;
+    width: 270px;
+}
+Inherited fromfieldset.boxBody
+.boxBody {
+    border-style: solid none;
+}
+#site_logo{
+    position:relative;
+    text-align:center;
+}
+.container .content{
+    width:350px;
+    margin:0 auto;
+    margin-top:80px; 
+}

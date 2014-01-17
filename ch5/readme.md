@@ -1,0 +1,1 @@
+run migrations via php artisan migrate to get all tables for the chapter.

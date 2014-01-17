@@ -1,0 +1,224 @@
+
+.sr-container
+{
+    margin-top: 43px;
+}
+.sr-align-center
+{
+    text-align: center !important;
+}
+.sr-align-right
+{
+    text-align:right  !important;
+}
+.sr-title
+{
+    margin-top:4px;
+    color: #006699;
+    text-transform: capitalize;
+    font-size:25px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.sr-print-table th,
+.sr-print-table td
+{
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding:4px;
+
+}
+.sr-print-table td
+{
+    padding:6px;
+}
+
+.h5add {
+    background: -moz-linear-gradient(center top , #FFFFFF 0%, #E5E5E5 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #D0D0D0;
+    border-radius: 1px 1px 1px 1px;
+    font-size: 15px;
+    margin: 20px 0;
+    padding: 7px 21px;
+}
+/*** End overwrite Bootstrap ****/
+
+.srsub-navbar
+{
+    margin:23px 0 0;
+    background-color: #f1f1f1;
+    border-bottom:1px solid #DCDCDC;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+.srsub-navbar .srsub-navbar-inner
+{
+    margin: 0 auto;
+    padding: 4px 0px;
+    vertical-align: middle;
+    min-height:39px;
+    padding-top: 6px;
+}
+.srsub-navbar  .subnav-form-search
+{ 
+    padding:6px 0;
+    margin:0;
+    position: relative;
+}
+
+.srsub-navbar  .subnav-form-search input[type="text"]
+{
+    margin:0;
+    padding-right: 20px;
+}
+.srsub-navbar  .subnav-form-search  .submit-image
+{
+    position: absolute;
+    right: 0;
+    top: 7px;
+    width: 27px;
+}
+
+
+.sr-table td,.sr-table th{
+    padding-left:10px;
+    padding-right:10px;
+
+    padding-top:10px;
+    padding-bottom:5px; 
+}
+#loading
+{
+    position:fixed;
+    display: none; 
+    left:0%; top:0%; text-align: center; z-index: 10000;
+    background-color: rgba(0,0,0,0.6);
+    width:100%;
+
+    min-height: 100%;
+    opacity: 0.8;
+}
+#loading .loading-image{
+    position: absolute;
+    top:44%;
+    left: 47%;
+    width:100px;
+}
+#loading .loading-txt{
+    position: absolute;
+    top:52%;
+    left: 47%;
+}
+h4 .date-display{
+    display:inline-block;
+    width:200px;
+}
+
+.sr-table th
+{
+    vertical-align:middle !important;
+}
+
+/* LARGE DESKTOP SCREENS */
+@media (min-width: 980px) {
+    .srsub-navbar .srsub-navbar-inner
+    {
+        width: 938px;
+    }
+}
+/* LARGE DESKTOP SCREENS */
+@media (min-width: 1210px) {
+    .srsub-navbar .srsub-navbar-inner
+    {
+        width: 1168px; /* 2px less to account for left/right borders being removed when in fixed mode */
+    }
+}
+
+.alert
+{
+    margin-bottom:31px !important;
+}
+
+.application-form .section-title
+{
+    font-size: 15px;
+    margin: 20px 0;
+    padding:8px 21px 6px 21px;
+    margin-bottom:28px;
+}
+
+/**
+Sub Menu for Header
+**/
+.submenu-show
+{
+    border-radius: 3px;
+    display: block;
+    left: 100%;
+    margin-top: -25px !important;
+    moz-border-radius: 3px;
+    position: absolute;
+    webkit-border-radius: 3px;
+}
+.submenu-hide
+{
+    display: none !important;
+    float: right;
+    position: relative;
+    top: auto;
+}
+.nav .submenu-show:before
+{
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.nav .submenu-show:after
+{
+    border-bottom: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-top: 6px solid transparent;
+    left: 10px;
+    left: -6px;
+    top: 11px;
+}
+.autocomplete {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #F1F1F1;
+    cursor: pointer !important;
+    margin: 0;
+    max-height:400px;
+    overflow: auto;
+    text-align: left;
+    font-size:12px; 
+}
+
+.autocomplete .selected {
+    background: none repeat scroll 0 0 #EDFDFF;
+}
+.autocomplete div {
+    border-bottom: 1px solid #F1F1F1;
+    padding: 5px;
+}
+.autocomplete div {
+    padding: 5px 6px;
+    white-space: nowrap;
+}
+.autocomplete {
+    cursor: default;
+    text-align: left;
+}
+input.balance {
+    font-size: 18px;
+}

@@ -1,0 +1,23 @@
+/**
+* CSS for Internet Explorer 7 
+*/
+
+.srsub-navbar
+{
+    margin:23px 0 0;
+    background-color: #f1f1f1;
+}
+
+.sr-title
+{
+    margin-top:10px;
+    color: #006699;
+    text-transform: capitalize;
+    font-size:25px;
+    line-height: 30px;
+    padding-left: 10px 
+}
+.srsub-navbar .srsub-navbar-inner .btn
+{
+    margin-right: 10px;
+}

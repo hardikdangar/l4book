@@ -1,0 +1,165 @@
+@page
+{
+    margin:0pt;
+    size: auto; 
+}
+/*Reset Style*/
+body {
+    margin:0; 
+    padding:0pt; 
+    line-height: 1.2em;
+    word-spacing:1px; 
+    letter-spacing:0.2px; 
+    font-family: arial;
+    color: #000;
+    background-image: none !important;
+    background-color: white !important;
+}
+
+.navbar,
+.srsub-navbar,
+#codeigniter_profiler,
+footer,
+hr,
+.notice_container
+{
+    display: none;
+
+}
+
+/*.sr-container
+{
+    margin-top: 110px;
+}*/
+.header_details{
+    margin-top:0px;
+    padding-top:0px;  
+}
+.sr-print-table
+{
+    border:1px solid black !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.sr-print-table td,
+.sr-print-table th
+{
+    text-align: center !important;
+    vertical-align: middle !important;
+    border:1px solid black;
+}
+
+.table-striped{
+    margin:0px; 
+}
+.table-border,.table-border th,.table-border td {
+    border:1px solid black;
+    border-spacing:0;
+    border-collapse:collapse;
+}
+.print-header-title,.container-fluid .sr-container{
+    margin-top:0px;
+}
+.span12{
+    padding-top:0px;
+}
+
+
+.table,.table td,.table th,input{
+    border: 1px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-bottom: 0px;
+}
+.no-print,.no-print *{
+    display: none;
+}
+.main-table{
+    margin-bottom: 10px;
+}
+.table th, .table td{
+    padding: 5px 5px 5px 5px;
+    line-height: normal;
+}
+.photo{
+    border: none;
+    line-height: 120px;
+    text-align: center;
+}
+p,input,h3,h4,h5{
+    padding: 0;
+    margin: 0;
+}
+.page-break{
+    page-break-before: always;
+    display:block;
+}
+.padding-non{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.btn-print{
+    display:none; 
+}
+div .same-block{
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:50px;  
+} 
+.table-header{
+    margin-top:10px; 
+} 
+.print-barcode{
+    max-height:30px;
+    line-height:31px; 
+}
+.table .min-padding-td td, .table .min-padding-td th{
+    padding-bottom:2px;
+    vertical-align:middle;
+    text-align:center;  
+} 
+/** EA form challan Table **/
+.ea-challan-table *
+{
+    font-size:9pt;
+    line-height: 10px;
+}
+.admin-display-uni-logo{
+    display:none;
+}
+
+.print-logo{
+    display:block;
+}
+
+div .same-block{
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:50px;  
+}
+
+/**@author JS bhalodia **/
+.table thead
+{
+    border-top:3px solid black !important;
+    background-color: grey !important;
+}
+.fix-heigth-table-row td
+{
+    padding:15px 5px; 
+}
+body,
+.print-cn
+{
+    font-size:14px !important;
+    font-family: calibri,"arial" !important;
+    line-height: 18px !important;
+    text-align: justify;
+}
+.table
+{
+    width: 100%;
+}
+.sr-align-right{
+    text-align:right; 
+} 

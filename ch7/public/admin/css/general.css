@@ -1,0 +1,92 @@
+/**** overwrite Bootstrap ****/
+
+.btn,
+.well,
+.pagination ul,
+.pagination ul li a,
+.uneditable-input,
+.tabs > li > a,
+.accordion-group,
+.modal,
+.alert,
+table,
+table td,
+table th,
+input,
+textarea,
+select,
+table tbody tr:first-child td:first-child,
+.order-length /** required Important **/
+{
+    border-radius:0 !important;
+}
+.modal
+{
+    border:0;
+}
+/* table */
+.table tr th {
+    background-color: #f1f1f1;
+}
+.table tr:hover td
+{
+    background-color: #F9F9F9 !important;
+}
+.well{
+    box-shadow: none;
+}
+.pagination li.active a,
+.pagination li a:hover,
+.tabs > li > a:hover,
+.well
+{ 
+    background-color: whitesmoke;
+}
+
+/*** End overwrite Bootstrap ****/  
+
+#pagination-dropdown-cn
+{
+    float: right;
+    padding:2px;
+    color:#0088CC;
+}
+#pagination-dropdown-cn select
+{
+    margin:2px 0px 0px 5px;
+}
+
+.empty-blank
+{
+    padding:20px 10px;
+}
+.sr-image
+{
+    padding:3px;
+    border:1px solid whitesmoke;
+}
+.sr-text-justify
+{
+    text-align: justify;
+}
+.ul-none
+{
+    list-style: none;
+}
+.ul-none li
+{
+    list-style: none;
+}
+.is-upper-text{
+    text-transform:uppercase;  
+}
+
+.red-txt
+{
+    color:red;
+}
+.strong
+{
+    font-weight: bold;
+}
+
