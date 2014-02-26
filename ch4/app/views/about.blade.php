@@ -48,4 +48,4 @@
 		<p><a href="http://www.youtube.com/watch?v=MQlObuRkJrk">The first interview with Ski Country</a></p>
 	</div>
 </div>
-@endsection
+@stop
